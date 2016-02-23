@@ -1,0 +1,21 @@
+name: Deck Fifty Design
+type: theme
+base theme: classy
+description: 'Simple, clean and responsive starter theme.'
+core: 8.x
+libraries:
+  - deckfifty/global-styling
+regions:
+  page_top: 'Page top'
+  header: Header
+  navigation: 'Navigation'
+  preface: 'Preface'
+  help: 'Help'
+  content: Primary
+  secondary: 'Secondary'
+  tertiary: 'Tertiary'
+  postscript: 'Postscript'
+  footer: 'Footer'
+  page_bottom: 'Page bottom'
+
+

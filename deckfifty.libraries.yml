@@ -1,0 +1,8 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/screen.css: {}
+      css/mobile.css: {}
+  js:
+    js/deckfifty.js: {}

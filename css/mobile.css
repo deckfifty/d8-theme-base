@@ -1,0 +1,45 @@
+/* Media Queries*/
+
+@media only screen and (max-width: 1280px) {
+  #header .inside,
+  #preface .region,
+  #container,
+  #postscript .region,
+  #footer .region {
+    width: 940px;
+  }
+
+}
+
+
+@media only screen and (max-width: 960px) {
+  #header .inside,
+  #preface .region,
+  #container,
+  #postscript .region,
+  #footer .region {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+  #page #primary {
+    margin: 0;
+  }
+  #page #secondary,
+  #page #tertiary {
+    margin: 0 0 40px 0;
+    width: 100%;
+  }
+  #page #secondary .region,
+  #page #tertiary .region {
+    margin: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+}

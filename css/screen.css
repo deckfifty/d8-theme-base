@@ -1,0 +1,136 @@
+/**
+* LAYOUT
+*/
+#header .inside,
+#preface .region,
+#container,
+#postscript .region,
+#footer .region {
+  width: 1100px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+#wrapper {
+  float: left;
+  width: 100%;
+}
+#primary {
+  margin: 0 25%;
+}
+#secondary {
+  float: left;
+  width: 25%;
+  margin-left: -100%;
+}
+#tertiary {
+  float: left;
+  width: 25%;
+  margin-left: -25%;
+}
+#footer {
+  clear: left;
+  width: 100%;
+}
+/* no secondary */
+.no-secondary #primary {
+  margin-left: 0;
+}
+/* no tertiary */
+.no-tertiary #primary {
+  margin-right: 0;
+}
+/* no secondary & tertiary */
+.no-secondary-or-tertiary #wrapper {
+  float: none;
+}
+
+/**
+* BACKGROUNDS
+*/
+
+/**
+* GENERIC GLOBAL STYLES
+*/
+
+#page img {
+  height: auto !important;
+}
+
+/* links */
+#page a {
+  text-decoration: none;
+}
+#page a:hover {
+  text-decoration: underline;
+}
+
+/* headings */
+#page h1 {}
+#page h2 {}
+#page h3 {}
+
+/**
+* HEADER REGION
+*/
+#header {}
+
+#header .site-logo {}
+#header .site-name {}
+
+
+/* Navigation */
+#header .region-navigation {}
+
+
+/**
+* PREFACE REGION
+*/
+
+
+/**
+* PRIMARY REGION
+*/
+#primary .inside {}
+
+#primary #page-title {
+  margin-top: 0;
+}
+
+
+/**
+* COMMON SECONDARY & TERTIARY STYLES
+*/
+
+
+/**
+* SECONDARY REGION
+*/
+#secondary .region {
+  margin: 0 40px 0 0;
+}
+#secondary .block {
+  margin: 0 0 40px 0;
+}
+
+/**
+* TERTIARY REGION
+*/
+#tertiary .region {
+  margin: 0 0 0 40px;
+}
+#tertiary .block {
+  margin: 0 0 40px 0;
+}
+
+/**
+* POSTSCRIPT REGION
+*/
+
+
+/**
+* FOOTER REGION
+*/
+
+#footer {}
